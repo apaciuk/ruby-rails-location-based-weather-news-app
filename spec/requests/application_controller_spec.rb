@@ -11,10 +11,10 @@ RSpec.describe 'ApplicationController', type: :request do
   @url = 'https://ip-geo-location.p.rapidapi.com/ip/check'
   @host = 'ip-geo-location.p.rapidapi.com'
   @headers = HEADERS
-  describe 'fetch_data' do
-    it 'returns a 200 response' do
-      get '/'
-      expect(response).to have_http_status(200)
+  describe '#fetch_data' do
+    it 'returns a valid response' do
+      response = Faraday.get(@url, headers: @headers)
+      expect(response.status).to eq(200)
     end
   end
 end
