@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fb09a34-a3ae-49c0-a5db-3281d0e231be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/requests/application_controller_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jumpstart-mini.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jumpstart-mini.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/api_fetch.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20220424193814_create_api_fetches.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/api_fetch_spec.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/requests/application_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/requests/application_controller_spec.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +158,7 @@
       <workItem from="1650521177470" duration="57000" />
       <workItem from="1650711633695" duration="152000" />
       <workItem from="1650828684883" duration="8212000" />
-      <workItem from="1650863794098" duration="4152000" />
+      <workItem from="1650863794098" duration="4554000" />
     </task>
     <servers />
   </component>

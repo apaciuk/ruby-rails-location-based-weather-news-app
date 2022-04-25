@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 require 'faraday'
 require 'json'
-require 'faraday_middleware'
 HEADERS = {
   'Content-Type': 'application/json',
   'Accept': 'application/json',

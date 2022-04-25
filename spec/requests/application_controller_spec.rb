@@ -8,6 +8,9 @@ HEADERS = {
   'x-rapidapi-key': ENV['RAPID_API_KEY']
 }.freeze
 RSpec.describe 'ApplicationController', type: :request do
+  @url = 'https://ip-geo-location.p.rapidapi.com/ip/check'
+  @host = 'ip-geo-location.p.rapidapi.com'
+  @headers = HEADERS
   describe 'fetch_data' do
     it 'returns a 200 response' do
       get '/'
