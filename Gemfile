@@ -69,8 +69,7 @@ gem 'bootsnap', require: false
 gem 'sassc-rails'
 
 # Faraday for api requests
-gem 'faraday', '~> 1.2'
-gem 'faraday_middleware', '~> 1.2'
+gem 'faraday', '~> 2.2'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
