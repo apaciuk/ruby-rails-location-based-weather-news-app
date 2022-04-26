@@ -4,16 +4,24 @@ require 'net/http'
 require 'openssl'
 require 'json'
 class QueryCreator < ApplicationService
+  # Arguments
+  arg :url, type: URI, required: true
+  arg :http, type: String
+  arg :request, type: String
+
+  # Steps
+  step :create_query
+  step :create_query_result
+  step :create_query_result_item
+
+  # Outputs
+  output :response
+
+  private
+
   def initialize(params)
     super()
     @params = params
-  end
-
-  def call
-    @params.each do |key, value|
-      @params[key] = value.join(',') if value.is_a?(Array)
-    end
-    @params
   end
 
   def loc_client
