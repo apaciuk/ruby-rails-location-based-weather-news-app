@@ -20,5 +20,3 @@ RSpec.describe 'ApplicationController', type: :request do
     end
   end
 end
-
-
