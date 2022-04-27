@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fb09a34-a3ae-49c0-a5db-3281d0e231be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jumpstart-mini.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jumpstart-mini.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/services/query_creator.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/query_creator.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +162,10 @@
       <workItem from="1650863794098" duration="10253000" />
       <workItem from="1650883411622" duration="4020000" />
       <workItem from="1650905947779" duration="11283000" />
-      <workItem from="1650948507639" duration="14061000" />
+      <workItem from="1650948507639" duration="23827000" />
+      <workItem from="1651037830312" duration="5943000" />
+      <workItem from="1651083308070" duration="923000" />
+      <workItem from="1651084247588" duration="596000" />
     </task>
     <servers />
   </component>
